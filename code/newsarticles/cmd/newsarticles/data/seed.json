@@ -1,0 +1,80 @@
+{
+  "user_id": "72ab7f0e-d71c-11eb-b8bc-0242ac130003",
+  "articles": [
+    {
+      "title": "12 Jaw-Dropping Secrets About Nicholas Cage",
+      "category": "business",
+      "like": false
+    },
+    {
+      "title": "Greatest Goals of All Time",
+      "category": "sport",
+      "like": false
+    },
+    {
+      "title": "10 Funny Sport Quotes",
+      "category": "sport",
+      "like": true
+    },
+    {
+      "title": "12 Jaw-Dropping Secrets About Nicholas Cage",
+      "category": "entertainment & arts",
+      "like": true
+    },
+    {
+      "title": "5 Shocking Parenting Tips From Arnold Schwarzenegger",
+      "category": "entertainment & arts",
+      "like": true
+    },
+    {
+      "tile": "Doge is going to the moon",
+      "category": "tech",
+      "like": true
+    },
+    {
+      "tile": "Tesla recalls vehicles in China",
+      "category": "tech",
+      "like": true
+    },
+    {
+      "tile": "Panasonic sells Tesla stake",
+      "category": "tech",
+      "like": true
+    },
+    {
+      "tile": "Bill Gates’s Top 6 Big Wave Surfing Secrets",
+      "category": "tech",
+      "like": true
+    },
+    {
+      "tile": "No More Mistakes With LIFESTYLE",
+      "category": "lifestyle",
+      "like": false
+    },
+    {
+      "tile": "LIFESTYLE: An Incredibly Easy Method That Works For All",
+      "category": "lifestyle",
+      "like": false
+    },
+    {
+      "tile": "There’s Big Money In LIFESTYLE",
+      "category": "lifestyle",
+      "like": false
+    },
+    {
+      "tile": "10 Ways To Reinvent Your LIFESTYLE",
+      "category": "lifestyle",
+      "like": false
+    },
+    {
+      "tile": "Who Else Wants To Know The Mystery Behind LIFESTYLE?",
+      "category": "lifestyle",
+      "like": false
+    },
+    {
+      "tile": "How To Teach LIFESTYLE Like A Pro",
+      "category": "lifestyle",
+      "like": false
+    }
+  ]
+}
