@@ -3,7 +3,7 @@ Project containing resources for MAIN recruitment
 
 ### News Articles
 
-#####The business would like to perform some analytics on the news articles a users views over the course of a month.
+###### The business would like to perform some analytics on the news articles a users views over the course of a month
 
 One of our developers started work on a RESTful service but they are off on annual leave for a few weeks. 
 
