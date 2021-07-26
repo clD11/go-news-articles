@@ -9,10 +9,10 @@ One of our developers started work on a RESTful service, but they are off on ann
 
 Your task is to pick up their work and finish the service.
 
-##### Features
+##### Tasks
 
-1. We want to be able to retrieve all the articles for a given user
+1. Clone the repository and get the code working _(hint there will be a failing test)_
 
-2. We would also like to know the top three categories the user liked the most
+2. Implement a new feature so we can retrieve all the articles for a given user
 
-3. When our server receives multiple requests a user has reported an issue, a test has been written can you solve this
+3. Implement a new feature so we can determine the top three categories the user liked the most
