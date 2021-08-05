@@ -2,10 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"ncu-main-recruitment/internal/model"
-	"ncu-main-recruitment/internal/storage"
-
-	//"github.com/gorilla/mux"
+	"ncu-main-recruitment/newsarticles/internal/model"
+	"ncu-main-recruitment/newsarticles/internal/storage"
 
 	"net/http"
 )

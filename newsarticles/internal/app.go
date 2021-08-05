@@ -1,10 +1,11 @@
 package internal
 
 import (
-	"github.com/gorilla/mux"
 	"log"
-	"ncu-main-recruitment/internal/handler"
-	"ncu-main-recruitment/internal/storage"
+	"ncu-main-recruitment/newsarticles/internal/handler"
+	"ncu-main-recruitment/newsarticles/internal/storage"
+
+	"github.com/gorilla/mux"
 
 	"net/http"
 )

@@ -3,11 +3,12 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	uuid "github.com/satori/go.uuid"
 	"io/ioutil"
-	"ncu-main-recruitment/internal"
-	"ncu-main-recruitment/internal/model"
-	"ncu-main-recruitment/internal/storage"
+	"ncu-main-recruitment/newsarticles/internal"
+	"ncu-main-recruitment/newsarticles/internal/model"
+	"ncu-main-recruitment/newsarticles/internal/storage"
+
+	uuid "github.com/satori/go.uuid"
 
 	"net/http"
 	"net/http/httptest"
