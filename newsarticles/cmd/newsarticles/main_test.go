@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	uuid "github.com/satori/go.uuid"
 	"io/ioutil"
 	"ncu-main-recruitment/internal"
 	"ncu-main-recruitment/internal/model"
@@ -79,6 +80,26 @@ func TestPostArticles_ShouldReturnBadRequestWhenArticlesAlreadyStoredAgainstUser
 
 	if rw.Code != http.StatusBadRequest {
 		t.Fatalf("code is not status bad request")
+	}
+}
+
+func TestPostArticles_ShouldReturnInternalServerErrorWhenInvalidKey(t *testing.T) {
+	flushDB()
+
+	data := readSeedData()
+
+	userID, _ := uuid.FromString("")
+	data.UserID = userID
+
+	payload, _ := json.Marshal(data)
+
+	request := httptest.NewRequest(http.MethodPost, "/articles", bytes.NewBuffer(payload))
+
+	rw := httptest.NewRecorder()
+	server.Handler.ServeHTTP(rw, request)
+
+	if rw.Code != http.StatusInternalServerError {
+		t.Fatalf("data not stored correctly")
 	}
 }
 

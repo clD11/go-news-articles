@@ -26,7 +26,7 @@ func NewDB() *SimpleDB {
 }
 
 func (sdb *SimpleDB) Insert(key uuid.UUID, value interface{}) error {
-	if len(key.Bytes()) <= 0 {
+	if key == uuid.Nil {
 		return ErrInvalidKey
 	}
 	_, ok := sdb.store[key]
