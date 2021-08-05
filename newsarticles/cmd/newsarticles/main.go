@@ -1,4 +1,4 @@
-package newsarticles
+package main
 
 import "ncu-main-recruitment/internal"
 
